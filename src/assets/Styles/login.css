@@ -1,0 +1,77 @@
+/* form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: rgb(80, 127, 237);
+
+  padding-top: 3rem;
+  width: 50%;
+  margin: 3rem, auto;
+} */
+
+/* .formStyle {
+  background: linear-gradient(-45deg, #9fb6ec, #6cb1e6, #062b8f);
+  background-size: 400% 400%;
+  animation: gradient-bg 20s ease infinite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 50%;
+  min-width: 300px;
+} */
+
+/* @keyframes gradient-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+/* .formStyle2 {
+  background: linear-gradient(-45deg, #9fb6ec, #6cb1e6, #d6ddee);
+  background-size: 400% 400%;
+  animation: gradient-bg2 20s ease infinite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 50%;
+  min-width: 300px;
+}
+
+@keyframes gradient-bg2 {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+input[type="text"],
+input[type="password"],
+input[type="button"],
+.btn-login {
+  width: 100%;
+  min-width: 300px;
+  max-width: 500px;
+
+  padding: 5px;
+  margin: 1rem auto;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  border: 3px solid #ccc; /* Add a grey border */
+  -webkit-transition: all 0.5s ease-in-out; /* Add transition on hover */
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+}

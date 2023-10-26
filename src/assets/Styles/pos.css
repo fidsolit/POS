@@ -1,0 +1,69 @@
+.poscontainer {
+  width: 100vw;
+  height: 80vh;
+}
+.positems {
+  width: 80vw;
+  height: 3rem;
+  background-color: bisque;
+}
+.tableMain {
+  width: auto;
+  height: auto;
+  margin: 5px auto;
+  padding: 3rem;
+  border: #000000;
+  border-width: 3rem;
+}
+
+/* Custom CSS Styling */
+.custom-table {
+  width: 80%;
+}
+.custom-table th,
+.custom-table td {
+  text-align: justify;
+}
+.custom-table tbody tr:nth-child(odd) {
+  /* background-color: #f2f2f2; */
+}
+.imbacode th {
+  color: #000000;
+}
+.tablewrapper {
+  background-color: rgb(255, 254, 254, 0.7);
+  margin-top: 1rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.ProductImage {
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .tableMain {
+    width: auto;
+    height: auto;
+    margin: 5px auto;
+    padding: 3rem;
+    border: #000000;
+    border-width: 3rem;
+  }
+  .custom-table {
+    width: 98%;
+  }
+  .tablewrapper {
+    margin: auto;
+  }
+
+  .custom-table {
+    width: auto;
+  }
+  .custom-table th,
+  .custom-table td {
+    text-align: left;
+  }
+  .custom-table tbody tr:nth-child(odd) {
+  }
+}
